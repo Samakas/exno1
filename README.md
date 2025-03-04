@@ -118,7 +118,11 @@ z = np.abs(stats.zscore(dataset['height']))
 z
 ```
 ![Screenshot 2025-03-04 110123](https://github.com/user-attachments/assets/43c9e274-939b-4c37-80ca-ef3ce40ba9bb)
-
+```python
+df1 = dataset[z<3]
+df1
+```
+![Screenshot 2025-03-04 110757](https://github.com/user-attachments/assets/a07afc70-42a9-47f0-a951-5a3271eb5d4b)
 
 # Result
 Thus We have cleaned the data and remove the outliers by detection using IQR and Z-score method.
